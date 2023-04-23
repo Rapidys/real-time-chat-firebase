@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    height: 800px;
+    justify-content: space-around;
+    background-color: rgba(86, 63, 131, 0.49);
+    padding: 15px;
+}
+.friendListWrapper{
+    width: 30%;
+}
+.chatWrapper{
+    width: 100%;
+    height: 70%;
+    overflow: scroll;
+}
+.message{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.friendList{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-image: linear-gradient(to right, #212020, #646686);
+    cursor: pointer;
+}
+.textArea{
+    resize: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    padding:10px 15px;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.avatar img{
+    margin-bottom: 5px;
+}
